@@ -1,0 +1,224 @@
+.main-video-comment-section-div {
+  width: 695px;
+}
+
+
+.main-video {
+  border-radius: 10px;
+}
+
+
+.main-video-comment-section-div {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+}
+
+
+.channel-name-like-andsuch-div img {
+  width: 40px;
+}
+
+.channel-name-like-andsuch-div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.channel-name-div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+}
+
+
+.name-subscribers {
+  display: flex;
+  flex-direction: column;
+  margin-left: 10px;
+  margin-right: 15px;
+}
+
+.channel-name-div button {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: black;
+  border: none;
+  border-radius: 20px;
+  padding: 10px 15px 10px 15px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+
+}
+
+.channel-name-div button:hover {
+  opacity: 0.8;
+}
+
+.like-share-div {
+  display: flex;
+}
+
+
+.like-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+.like-dislike-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 15px;
+  background-color: rgb(228, 226, 226);
+  cursor: pointer;
+}
+
+
+.like-icon-div,
+.dislike-icon-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px 10px 8px 10px;
+  border-radius: 15px;
+  transition: background-color 0.15s;
+  
+}
+
+.dislike-icon-div {
+  margin-left: 2px;
+}
+
+.like-icon-div:hover,
+.dislike-icon-div:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.share-div {
+  margin-left: 10px;
+  padding: 2px 5px 2px 5px;
+  border-radius: 15px;
+  background-color: rgb(228, 226, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.share-div:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.share-div img {
+  width: 30px;
+}
+
+.three-h-dots {
+  margin-left: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+
+  border-radius: 50%;
+  background-color: rgb(228, 226, 226);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+
+}
+
+.three-h-dots:hover {
+  background-color: rgb(196, 196, 196);
+}
+
+.three-h-dots img {
+  width: 17px; 
+}
+
+.gray-box {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  width: 690px;
+  background-color: rgb(226, 226, 226);
+  padding: 1px 5px 1px 5px;
+  cursor: pointer;
+}
+
+.gray-box p {
+  margin: 0;
+  font-size: 14px;
+  margin-bottom: 2px;
+}
+
+
+.under-gray-box {
+  display: flex;
+  align-items: center;
+}
+
+.add-comment {
+  margin-top: 20px;
+  display: flex;
+
+}
+
+.profile-picture-div img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.comment-section .comment {
+  display: flex;
+
+}
+
+.comment p {
+  margin: 0;
+  font-size: 14px;
+  
+}
+
+.like-dislike-reply-div {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.like-dislike-reply-div .circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.like-dislike-reply-div .circle:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+.like-dislike-reply-div button {
+  border: none;
+  background-color: white; 
+  font-weight: bold; 
+  font-size: 12px;
+  padding: 10px;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+.like-dislike-reply-div button:hover {
+  background-color: rgb(226, 226, 226);
+}
+
+
+.replies .use-hover:hover {
+  background-color: #c6defd;
+}
